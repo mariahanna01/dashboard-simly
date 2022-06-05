@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## App Colors
 
-## Available Scripts
+Gray: #9A9AAA,
+Purple: #605BFF,
+Gray title: #504E6B,
+Text: #030229,
+Blue: #5B93FF,
+Yellow: #FFD66B,
+Orange: #FF8F6B,
+Gray number: #4C4C4C,
+User name: #000000,
+Green: #3A974C,
+Blue calendar: #4285F4,
 
-In the project directory, you can run:
+## App Fonts
 
-### `npm start`
+### Dashboard + Order SIM + New eSIM
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Menu: Gilroy - 600 - 16px,
+Title: Gilroy - 700 - 18px,
+Page title: Gilroy - 700 - 33px,
+Numbers: Gilroy - 800 - 22px,
+Text: Gilroy - 400 - 12px,
+Price: Gilroy - 700 - 15px,
+Date: Gilroy - 600 - 14px,
+Username: Gilroy - 600 - 12px,
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### generateESIM + Analytics
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+fileds title: Nunito - 400 - 14px,
+fileds text: Nunito - 400 - 12px,
+revenues: Nunito - 700 - 24px,
+title: Nunito - 700 - 18px,
+name + total: Nunito - 600 - 12px,
+text: Nunito - 400 - 12px,
+toggle: Nunito - 700 - 14px,
