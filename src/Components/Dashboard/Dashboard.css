@@ -1,0 +1,213 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+.dashboard{
+position: absolute;
+width: 171px;
+height: 41px;
+left: 248px;
+top: 49px;
+font-family: 'Gilroy-bold';
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 41px;
+color: black;
+}
+.products{
+position: absolute;
+width: 268px;
+height: 116px;
+left: 248px;
+top: 124px;
+background: #FFFFFF;
+border-radius: 22px;
+}
+.prod1{
+position: absolute;
+width: 64px;
+height: 27px;
+left: 111px;
+top: 33px;
+right:93px;
+bottom: 56px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 0.7;
+}
+.prod2{
+    position: absolute;
+width: 96px;
+height: 17px;
+left: 111px;
+right: 61px;
+top: 64px;
+bottom: 35px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #030229;
+
+opacity: 0.7;
+}
+.heart1{
+position: absolute;
+width: 60px;
+height: 60px;
+left: 28px;
+right: 180;
+top: 28px;
+bottom: 28px;
+
+background: #5B93FF;
+opacity: 0.1;
+border-radius: 38px;
+}
+.heart2{
+position: absolute;
+left: 20px;
+right: 20.5px;
+top: 20.5px;
+bottom: 20.5px;
+
+background: #5B93FF;
+}
+.link{
+position: absolute;
+width: 268px;
+height: 116px;
+left: 546px;
+top: 124px;
+
+background: #FFFFFF;
+border-radius: 22px;
+}
+.link1{
+    position: absolute;
+width: 55px;
+height: 27px;
+left: 111px;
+right: 102px;
+top: 33px;
+bottom: 56px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 27px;
+color: #030229;
+
+opacity: 0.7;
+}
+.conv{
+    
+position: absolute;
+width: 268px;
+height: 116px;
+left: 844px;
+top: 124px;
+
+background: #FFFFFF;
+border-radius: 22px;
+}
+.conv1{
+position: absolute;
+width: 43px;
+height: 27px;
+left: 112px;
+right: 113px;
+top: 33px;
+bottom: 56px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 27px;
+color: #030229;
+
+opacity: 0.7;
+}
+.sales{
+position: absolute;
+width: 268px;
+height: 116px;
+left: 1142px;
+top: 124px;
+
+background: #FFFFFF;
+border-radius: 22px;
+}
+.sales1{
+    position: absolute;
+width: 72px;
+height: 27px;
+left: 111px;
+right: 85px;
+top: 33px;
+bottom: 56px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+/* Text */
+
+color: #030229;
+
+opacity: 0.7
+}
+.reports{
+position: absolute;
+width: 702px;
+height: 408px;
+left: 248px;
+top: 258px;
+
+background: #FFFFFF;
+border-radius: 22px;
+}
+.countries{
+position: absolute;
+width: 430px;
+height: 408px;
+left: 980px;
+top: 256px;
+
+background: #FFFFFF;
+border-radius: 22px;
+}
+.recentOrders{
+position: absolute;
+width: 702px;
+height: 335px;
+left: 248px;
+top: 682px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.04);
+border-radius: 22px;
+}
+.top{
+position: absolute;
+width: 430px;
+height: 335px;
+left: 980px;
+top: 682px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.04);
+border-radius: 22px 22px 22px 10px;
+}

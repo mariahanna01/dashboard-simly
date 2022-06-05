@@ -1,0 +1,122 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+.menu {
+position: absolute;
+width: 218px;
+height: 1047px;
+background: #FFFFFF;
+
+}
+.simly{
+position: absolute;
+width: 110px;
+height: 46px;
+top: 169px;
+left:24px;
+right:84px;
+bottom: 832px;
+}
+.dashboard1{
+position: absolute;
+width: 83px;
+height: 20.61px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #030229;
+opacity: 0.5;
+left:67px;
+right:68px;
+top: 363px;
+bottom: 666.39px;
+text-decoration: none;
+}
+.dashboard1:focus{
+    color:#605BFF ;
+}
+.analytics{
+position: absolute;
+width: 68px;
+height: 20.61px;
+text-decoration: none;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+left:67px;
+right:83px;
+top:403px;
+bottom: 623.39px;
+color: #030229;
+
+opacity: 0.5;
+}
+.analytics:focus{
+    color:#605BFF ;
+}
+.orders{
+position: absolute;
+width: 50px;
+height: 20.61px;
+text-decoration: none;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+left:67px;
+right:101px;
+top:446px;
+bottom: 580.39px;
+color: #030229;
+opacity: 0.5;
+}
+.orders:focus{
+    color:#605BFF ;
+}
+.newEsim{
+position: absolute;
+width: 72px;
+height: 20.61px;
+text-decoration: none;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+left:67px;
+right:79px;
+top:489px;
+bottom: 537px;
+
+color: #030229;
+
+opacity: 0.5;
+}
+.newEsim:focus{
+    color:#605BFF ;
+}
+.settings{
+    
+position: absolute;
+width: 61px;
+height: 20.61px;
+text-decoration: none;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+left:67px;
+right:90px;
+top:532px;
+bottom: 494px;
+color: #030229;
+
+opacity: 0.5;
+}
+.settings:focus{
+    color:#605BFF ;
+}
