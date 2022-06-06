@@ -1,122 +1,55 @@
-@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+/* gilroy fonts:
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+*/
+
 .menu {
-position: absolute;
-width: 218px;
-height: 1047px;
-background: #FFFFFF;
+    position: absolute;
+    width: 15.13vw;
+    height: 100%;
+    background: #FFFFFF;
 
 }
-.simly{
-position: absolute;
-width: 110px;
-height: 46px;
-top: 169px;
-left:24px;
-right:84px;
-bottom: 832px;
-}
-.dashboard1{
-position: absolute;
-width: 83px;
-height: 20.61px;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-color: #030229;
-opacity: 0.5;
-left:67px;
-right:68px;
-top: 363px;
-bottom: 666.39px;
-text-decoration: none;
-}
-.dashboard1:focus{
-    color:#605BFF ;
-}
-.analytics{
-position: absolute;
-width: 68px;
-height: 20.61px;
-text-decoration: none;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-left:67px;
-right:83px;
-top:403px;
-bottom: 623.39px;
-color: #030229;
 
-opacity: 0.5;
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
 }
-.analytics:focus{
-    color:#605BFF ;
-}
-.orders{
-position: absolute;
-width: 50px;
-height: 20.61px;
-text-decoration: none;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-left:67px;
-right:101px;
-top:446px;
-bottom: 580.39px;
-color: #030229;
-opacity: 0.5;
-}
-.orders:focus{
-    color:#605BFF ;
-}
-.newEsim{
-position: absolute;
-width: 72px;
-height: 20.61px;
-text-decoration: none;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-left:67px;
-right:79px;
-top:489px;
-bottom: 537px;
 
-color: #030229;
+.simly {
+    position: absolute;
+    width: 7.64vw;
+    height: 3.19vw;
+    margin: 11.736vw 0vw 0vw 1.736vw;
+}
 
-opacity: 0.5;
+.sidebar {
+    position: relative;
+    display: inline-block;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    color: #030229;
+    padding: 1.736vw 0px 0px 1.736vw;
+    opacity: 0.5;
+    text-decoration: none;
 }
-.newEsim:focus{
-    color:#605BFF ;
-}
-.settings{
-    
-position: absolute;
-width: 61px;
-height: 20.61px;
-text-decoration: none;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-left:67px;
-right:90px;
-top:532px;
-bottom: 494px;
-color: #030229;
 
-opacity: 0.5;
+.sidebar:hover {
+    color: #605BFF;
 }
-.settings:focus{
-    color:#605BFF ;
+
+.sidebar:active {
+    color: #605BFF;
+    opacity: 1;
 }

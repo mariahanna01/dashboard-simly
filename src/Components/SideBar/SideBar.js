@@ -1,16 +1,99 @@
-import React from 'react'
-import './SideBar.css'
-import simly from '../Pictures/simly.jpeg'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./SideBar.css";
+import { Link } from "react-router-dom";
+
+import {
+  CDBSidebar,
+  CDBSidebarContent,
+  CDBSidebarFooter,
+  CDBSidebarHeader,
+  CDBSidebarMenu,
+  CDBSidebarMenuItem,
+} from "cdbreact";
+
+import { NavLink } from "react-router-dom";
+
+import simly from "../../assets/icons/logo.svg";
+
 export default function SideBar() {
+  // return (
+  //   <div className="menu">
+  //     <img src={simly} className="simly" alt="Simly" />
+  //     <div className="menu-items">
+  //       <Link className="sidebar" to="/">
+  //         <span>Dashboard</span>
+  //       </Link>
+  //       <Link className="sidebar" to="/analytics">
+  //         <span>Analytics</span>
+  //       </Link>
+  //       <Link className="sidebar" to="/orders">
+  //         <span>Orders</span>
+  //       </Link>
+  //       <Link className="sidebar" to="/newEsim">
+  //         <span>New eSIM</span>
+  //       </Link>
+  //       <Link className="sidebar" to="settings">
+  //         <span>Settings</span>
+  //       </Link>
+  //     </div>
+  //   </div>
+  // );
+
   return (
-    <div className='menu'>
-<img src={simly} className='simly'/>
-<Link className='dashboard1' to='/dashboard'>Dashboard</Link>
-<Link className='analytics' to='/analytics'>Analytics</Link>
-<Link className='orders' to='/orders'>Orders</Link>
-<Link className='newEsim' to='/newEsim'>New eSIM</Link>
-<Link className='settings' to='settings'>Settings</Link>
+    <div
+      style={{ display: "flex", height: "100vh", overflow: "scroll initial" }}
+    >
+      <CDBSidebar textColor="#fff" backgroundColor="#333">
+        <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
+          <a
+            href="/"
+            className="text-decoration-none"
+            style={{ color: "inherit" }}
+          >
+            Sidebar
+          </a>
+        </CDBSidebarHeader>
+
+        <CDBSidebarContent className="sidebar-content">
+          <CDBSidebarMenu>
+            <NavLink exact to="/" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
+            </NavLink>
+            <NavLink exact to="/tables" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="table">Tables</CDBSidebarMenuItem>
+            </NavLink>
+            <NavLink exact to="/profile" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="user">Profile page</CDBSidebarMenuItem>
+            </NavLink>
+            <NavLink exact to="/analytics" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="chart-line">
+                Analytics
+              </CDBSidebarMenuItem>
+            </NavLink>
+
+            <NavLink
+              exact
+              to="/hero404"
+              target="_blank"
+              activeClassName="activeClicked"
+            >
+              <CDBSidebarMenuItem icon="exclamation-circle">
+                404 page
+              </CDBSidebarMenuItem>
+            </NavLink>
+          </CDBSidebarMenu>
+        </CDBSidebarContent>
+
+        <CDBSidebarFooter style={{ textAlign: "center" }}>
+          <div
+            style={{
+              padding: "20px 5px",
+            }}
+          >
+            Sidebar Footer
+          </div>
+        </CDBSidebarFooter>
+      </CDBSidebar>
     </div>
-  )
+  );
 }

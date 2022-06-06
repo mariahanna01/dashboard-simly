@@ -1,213 +1,152 @@
 @import url("http://fonts.cdnfonts.com/css/gilroy-bold");
-.dashboard{
-position: absolute;
-width: 171px;
-height: 41px;
-left: 248px;
-top: 49px;
-font-family: 'Gilroy-bold';
-font-style: normal;
-font-weight: 700;
-font-size: 33px;
-line-height: 41px;
-color: black;
+
+.body {
+    position: relative;
+    height: 100%;
+    margin-left: 9vw;
+    padding-top: 3.47vw;
+    flex-direction: column;
+    align-items: left;
 }
-.products{
-position: absolute;
-width: 268px;
-height: 116px;
-left: 248px;
-top: 124px;
-background: #FFFFFF;
-border-radius: 22px;
+
+.items-views {
+    display: block;
+    width: 4.16vw;
+    height: 4.16vw;
+    border-radius: 50px;
+    font-size: 37px;
+    text-align: center;
+    background: #5B93FF20;
+    line-height: 1.7em;
 }
-.prod1{
-position: absolute;
-width: 64px;
-height: 27px;
-left: 111px;
-top: 33px;
-right:93px;
-bottom: 56px;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 800;
-font-size: 22px;
-line-height: 27px;
-/* identical to box height */
 
-
-color: #000000;
-
-opacity: 0.7;
+.items-links {
+    display: block;
+    width: 4.16vw;
+    height: 4.16vw;
+    border-radius: 50px;
+    font-size: 37px;
+    text-align: center;
+    background: #FFC32720;
+    line-height: 1.7em;
 }
-.prod2{
-    position: absolute;
-width: 96px;
-height: 17px;
-left: 111px;
-right: 61px;
-top: 64px;
-bottom: 35px;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
 
-color: #030229;
-
-opacity: 0.7;
+.items-rate {
+    display: block;
+    width: 4.16vw;
+    height: 4.16vw;
+    border-radius: 50px;
+    font-size: 37px;
+    text-align: center;
+    background: #FF8F6B20;
+    line-height: 1.7em;
 }
-.heart1{
-position: absolute;
-width: 60px;
-height: 60px;
-left: 28px;
-right: 180;
-top: 28px;
-bottom: 28px;
 
-background: #5B93FF;
-opacity: 0.1;
-border-radius: 38px;
+.items-sales {
+    display: block;
+    width: 4.16vw;
+    height: 4.16vw;
+    border-radius: 50px;
+    font-size: 37px;
+    text-align: center;
+    background: #605BFF20;
+    line-height: 1.7em;
 }
-.heart2{
-position: absolute;
-left: 20px;
-right: 20.5px;
-top: 20.5px;
-bottom: 20.5px;
 
-background: #5B93FF;
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 1.38vw;
+    width: 1.38vw;
+    margin: 1.38vw;
 }
-.link{
-position: absolute;
-width: 268px;
-height: 116px;
-left: 546px;
-top: 124px;
 
-background: #FFFFFF;
-border-radius: 22px;
+.dashboard {
+    position: relative;
+    font-family: 'Gilroy-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    color: black;
 }
-.link1{
-    position: absolute;
-width: 55px;
-height: 27px;
-left: 111px;
-right: 102px;
-top: 33px;
-bottom: 56px;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 800;
-font-size: 22px;
-line-height: 27px;
-color: #030229;
 
-opacity: 0.7;
+.products {
+    position: relative;
+    width: 18.6vw;
+    height: 11.08vh;
+    background: #FFFFFF;
+    border-radius: 22px;
+    display: inline-block;
 }
-.conv{
-    
-position: absolute;
-width: 268px;
-height: 116px;
-left: 844px;
-top: 124px;
 
-background: #FFFFFF;
-border-radius: 22px;
+.prod-title {
+    position: relative;
+    width: 64px;
+    height: 27px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.7;
 }
-.conv1{
-position: absolute;
-width: 43px;
-height: 27px;
-left: 112px;
-right: 113px;
-top: 33px;
-bottom: 56px;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 800;
-font-size: 22px;
-line-height: 27px;
-color: #030229;
 
-opacity: 0.7;
+.prod-label {
+    position: relative;
+    width: 96px;
+    height: 17px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #030229;
+
+    opacity: 0.7;
 }
-.sales{
-position: absolute;
-width: 268px;
-height: 116px;
-left: 1142px;
-top: 124px;
 
-background: #FFFFFF;
-border-radius: 22px;
+.reports {
+    position: relative;
+    width: 48.75vw;
+    height: 38.97vh;
+
+    background: #FFFFFF;
+    border-radius: 22px;
 }
-.sales1{
-    position: absolute;
-width: 72px;
-height: 27px;
-left: 111px;
-right: 85px;
-top: 33px;
-bottom: 56px;
 
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 800;
-font-size: 22px;
-line-height: 27px;
-/* identical to box height */
+.countries {
+    position: relative;
+    width: 29.86vw;
+    height: 38.97vh;
 
-
-/* Text */
-
-color: #030229;
-
-opacity: 0.7
+    background: #FFFFFF;
+    border-radius: 22px;
 }
-.reports{
-position: absolute;
-width: 702px;
-height: 408px;
-left: 248px;
-top: 258px;
 
-background: #FFFFFF;
-border-radius: 22px;
+.recentOrders {
+    position: relative;
+    width: 48.75vw;
+    height: 38.97vh;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.04);
+    border-radius: 22px;
 }
-.countries{
-position: absolute;
-width: 430px;
-height: 408px;
-left: 980px;
-top: 256px;
 
-background: #FFFFFF;
-border-radius: 22px;
-}
-.recentOrders{
-position: absolute;
-width: 702px;
-height: 335px;
-left: 248px;
-top: 682px;
+.top {
+    position: relative;
+    width: 29.86vw;
+    height: 38.97vh;
 
-background: #FFFFFF;
-box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.04);
-border-radius: 22px;
-}
-.top{
-position: absolute;
-width: 430px;
-height: 335px;
-left: 980px;
-top: 682px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.04);
-border-radius: 22px 22px 22px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.04);
+    border-radius: 22px 22px 22px 10px;
 }
