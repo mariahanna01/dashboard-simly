@@ -14,7 +14,6 @@
     width: 15.13vw;
     height: 100%;
     background: #FFFFFF;
-
 }
 
 .menu-items {
@@ -22,7 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    height: 100%;
+    height: 50vw;
 }
 
 .simly {

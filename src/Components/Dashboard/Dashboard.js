@@ -1,18 +1,26 @@
 import React from "react";
 import "./Dashboard.css";
-
+import { useState } from "react";
+import { Button ,Modal} from "react-bootstrap";
 import heart from "../../assets/icons/Heart.svg";
 import game from "../../assets/icons/Game.svg";
 import bag from "../../assets/icons/Bag.svg";
 import work from "../../assets/icons/Work.svg";
 
 export default function Dashboard() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div className="body">
       <div class="container">
         <div class="row align-items-stretch">
           <div class="col-md-12">
             <span className="dashboard">Dashboard</span>
+            <Button variant="primary" onClick={handleShow}>
+        Launch static backdrop modal
+      </Button>
           </div>
         </div>
 
@@ -114,6 +122,56 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
+
+
+
+      <Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+         className='modal_try'
+        style={{'height': '1000px'}}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Generate eSIM</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+       <form className="form-esim">
+        <label className="labels-esims">First Name</label>
+        <br/>
+        <input />
+        <br/>
+        <label className="labels-esims">Last Name</label>
+        <br/>
+        <input />
+        <br/>
+        <label className="labels-esims">Email</label>
+        <br/>
+        <input />
+        <br/>
+        <label className="labels-esims">Package Country</label>
+        <br/>
+        <input />
+        <br/>
+        <label className="labels-esims">Package Type</label>
+        <br/>
+        <input />
+        <br/>
+        <label className="labels-esims">Promo Code</label>
+        <br/>
+        <input />
+        <br/>
+       </form>
+          
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary">Understood</Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }

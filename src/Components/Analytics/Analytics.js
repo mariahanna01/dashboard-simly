@@ -1,7 +1,9 @@
 import React from 'react'
-
+import './Analytics.css'
 export default function Analytics() {
   return (
-    <div>Analytics</div>
+    <div className='body'>
+      
+    </div>
   )
 }
